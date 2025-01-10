@@ -126,7 +126,7 @@ class DataGrabber:
         output_path = os.path.join(self.script_dir, 'spotify_history.csv')
         dataframe.to_csv(output_path, index = False)
         formatted_path = f'"{os.path.abspath(output_path)}"'
-        print(f"Data written to {formatted_path}")
+        #print(f"Data written to {formatted_path}")
 
         return
     
